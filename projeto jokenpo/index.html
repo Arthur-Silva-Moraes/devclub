@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="itens-format">
+        <h1>Jokenpo</h1>
+        <div class="buttons-align">
+            <button id="pedra" class="botoes" onclick="start(1)" value=1>&#x1F44A;</button>
+            <button id="papel" class="botoes" onclick="start(2)" value=2>&#x1f590;</button>
+            <button id="tesoura" class="botoes" onclick="start(3)" value=3>&#x270c;</button>
+        </div>
+
+        <button id="random"></button>
+        <button id="restart" onclick="reiniciar()">reiniciar</button>
+        <div>
+            <p>Sua Pontuação: <span class="sua-pontuacao">0</span></p>
+            <p>Pontuação do Bot: <span class="bot-pontuacao">0</span></p>
+        </div>
+    </div>
+</body>
+
+<script src="scripts.js" defer></script>
+
+</html>

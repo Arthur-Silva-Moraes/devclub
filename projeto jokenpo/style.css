@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+
+
+.background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;    
+    background-image: url('https://img.freepik.com/free-vector/glowing-focus-light-effect-abstract-stage-background_1017-53671.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.itens-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #00000018;
+    width: 300px;
+    margin: 250px auto;
+    border-radius: 5px;
+    height: 250px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.buttons-align{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    margin: 0 14px;
+    border: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+#random{
+    display: block;
+    margin: 10px auto;
+    cursor: auto;
+    
+}
+#restart{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    background-color: green;
+    color: white;
+    
+}
+
+
+
+#pedra{
+    background-color: green;
+}
+#papel{
+    background-color: blue;
+}
+#tesoura{
+    background-color: red;
+}
+
+p{
+    text-align: center;
+}
+
+.sua-pontuacao{
+    color: rgb(15, 255, 15);
+}
+.bot-pontuacao{
+    color: red;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburguer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <button class="show-all" onclick="showall()">Monstrar todos os lanches</button>
+        <button class="descount" onclick="descount()">Desconto</button>
+        <button class="values-sum" onclick="totalValue()">Somar os lanches</button>
+        <div class="lista-lanches">
+            <button class="choose-snack" onclick="showOptions()"> escolher lanches</button>
+            <div class="escolhas">
+                <div>
+                    <input type="checkbox" id="x-salada">
+                    <label for="x-salada">X-Salada</label>
+                </div>
+                <div>
+
+                    <input type="checkbox" id="x-bacon">
+                    <label for="x-bacon">X-Bacon</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="x-bacon-egg">
+                    <label for="checkbox">X-Bacon EGG</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="monstruoso">
+                    <label for="checkbox">Monstruoso</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="big-vegano">
+                    <label for="checkbox">Big Vegano</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="x-vegan">
+                    <label for="checkbox">X-Vegan</label>
+                </div>
+                <button class="confirmar" onclick="showSnacks()">✔</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="layout">
+            <div class="x-salada-container lanches">
+                <img src="img/x-salada.jpg" alt="">
+                <p>X-Salada</p>
+                <p>R$ <span class="prices">30.00</span></p>
+            </div>
+
+            <div class="x-bacon-container lanches">
+                <img src="img/x-bacon.jpg" alt="">
+                <p>X-Bacon</p>
+                <p>R$ <span class="prices">34.90</span></p>
+
+            </div>
+
+            <div class="x-bacon-egg-container lanches">
+                <img src="img/x-bacon-egg.jpg" alt="">
+                <p>X-bacon Egg</p>
+                <p>R$ <span class="prices">30.00</span></p>
+            </div>
+
+            <div class="monstruoso-container lanches">
+                <img src="img/x-monstro.jpg" alt="">
+                <p>Monstruoso</p>
+                <p>R$ <span class="prices">50.00</span></p>
+
+            </div>
+
+            <div class="big-vegano-container lanches">
+                <img src="img/x-vegano.jpg" alt="">
+                <p>Big Vegano</p>
+                <p>R$ <span class="prices">55.00</span></p>
+
+            </div>
+
+            <div class="x-vegan-container lanches">
+                <img src="img/x-vegan.jpg" alt="">
+                <p>X-Vegan</p>
+                <p>R$ <span class="prices">45.00</span></p>
+
+            </div>
+
+            <div class="resultado-lanches">
+                <p>o Valor total dos produtos selecionados é de: </p>
+                <p>R$ <span class="preco-final">45.00</span></p>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

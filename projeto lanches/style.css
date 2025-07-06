@@ -1,0 +1,93 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 20px 20px;
+    font-size: 20px;
+    width: 175px;
+    height: 60px;
+    color: black;
+    background-color: rgb(26, 233, 26);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+.confirmar{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 10vw;
+    place-items: center;
+    row-gap: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.lanches{
+    border: solid 4px rgb(204, 12, 204);
+    width: 200px;
+    padding: 20px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+.prices{
+    color: rgb(16, 216, 16);
+}
+
+label{
+    color: white;
+}
+
+.lista-lanches{
+    display: flex;
+}
+
+.escolhas{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 5px;
+}
+
+.escolhas{display: none;}
+
+.resultado-lanches{
+    border: solid 4px rgb(204, 12, 204);
+    width: 200px;
+    padding: 20px;
+    display: none;
+}

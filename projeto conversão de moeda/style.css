@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5D5D7D;
+    font-family: Roboto;
+}
+
+body{
+    background-color: #8b52fd;
+}
+
+.box-img-logo{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.box-main{
+    background-color: #F4F4F4;
+    width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.inicial-values{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    
+}
+
+select{
+    display: block;
+    width: 90%;
+    appearance: none;
+	padding: 5px;
+	border: solid 1px rgba(128, 128, 128, 0.281);
+    border-radius: 2px;
+	outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+input{
+    display: block;
+    font-weight: 700;
+    font-weight: bold;
+    width: 90%;
+    appearance: none;
+	padding: 5px;
+	border: solid 1px rgba(128, 128, 128, 0.281);
+    border-radius: 2px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;}
+
+button{
+    display: block;
+    color: #ffffff;
+    background-color: #772FD3;
+    width: 90%;
+    height: 44px;
+    margin: 20px auto 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.layout-states{
+    position: relative;
+    top: 10px;
+    border: solid 1.2px #772FD3;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto ;
+    Width: 327px;
+    Height: 276px;
+}
+
+.arrow-image{
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+.pais1{
+    display: block;
+    margin: 10px auto 0px;
+        
+}
+.pais2{
+    display: block;
+    margin: 10px auto 0px;
+        
+}
+
+.box-states p{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.pais1{
+    height:52px ;
+}
+
+.pais2{
+    height:52px ;
+}
